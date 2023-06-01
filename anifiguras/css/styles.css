@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/tic-tac-toe.png");
+  background-repeat: repeat;
+}
+
+nav {
+  background: rgba(238, 193, 201, 0.859);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(186, 39, 110);
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(254, 254, 254);
+}
+
+.dropdown-menu {
+  background: rgb(250, 234, 234);
+  font-family: "Fjalla One", sans-serif;
+}
+
+.dropdown-menu a {
+  color: rgb(186, 39, 110);
+}
+
+span {
+  color: rgb(156, 46, 101);
+  font-weight: bold;
+}
+
+
+h2 {
+  color: rgb(186, 39, 110);
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 20px;
+  font-family: "Barlow", sans-serif;
+}
+
+.link{
+ text-decoration: none;
+ color: purple;
+}
+
+h1.logo {
+  background-image: url("../img/japan.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 67px;
+  height: 60px;
+}
+
+img {
+  padding: 0.5rem;
+}
+
+.existente {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(186, 39, 110);
+}
+
+.card-group {
+  max-width: 30rem;
+  margin: auto;
+}
+
+.card {
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+  padding: 0.3rem;
+}
+
+.card-figura {
+  padding: 0.3rem;
+}
+
+.btn,
+button {
+  background-color: rgb(186, 39, 110);
+  color: rgb(255, 255, 255);
+  font-family: "Barlow", sans-serif;
+}
+
+.price {
+  color: rgb(186, 39, 110);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+form {
+  padding: 2em;
+  border-radius: 2em;
+  border: 2px solid rgb(152, 122, 147);
+  background-color: rgb(250, 248, 250);
+  text-align: center;
+}
+
+.datos > li {
+  list-style-type: none;
+  background-color: white;
+  border-radius: 2em;
+  color: rgb(186, 39, 110);
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: rgba(238, 193, 201, 0.859);
+  height: auto;
+  max-width: 100%;
+  margin-top: 3rem;
+  padding: 0.5rem;
+}
